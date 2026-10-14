@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+  <link rel="stylesheet" href="{{ root }}/static/style.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ root }}/feed.xml">
+</head>
+<body>
+  <canvas id="embers" aria-hidden="true"></canvas>
+  <header class="site-head">
+    <a class="brand" href="{{ root }}/index.html"><span class="flame" aria-hidden="true"></span>{{ site.title }}</a>
+    <nav>
+      <a href="{{ root }}/index.html">Posts</a>
+      <a href="{{ root }}/about.html">About</a>
+      <a href="{{ root }}/feed.xml">RSS</a>
+    </nav>
+  </header>
+  <main class="wrap">{% block content %}{% endblock %}</main>
+  <footer class="site-foot">
+    <p>{{ site.title }} is an unofficial fan blog. Dark Souls is a trademark of its owners; this site is not affiliated with FromSoftware or Bandai Namco.</p>
+    <p>© {{ year }} Anthony Evo · <a href="https://github.com/TheoYanvno/bonfire-notes">Source on GitHub</a></p>
+  </footer>
+  <script src="{{ root }}/static/embers.js"></script>
+</body>
+</html>

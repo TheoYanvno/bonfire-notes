@@ -1,0 +1,42 @@
+:root { --bg: #0c0a09; --panel: #171311; --text: #e7e0d6; --muted: #a8998a; --ember: #f97316; --gold: #d6a756; --line: #2b231e; }
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { margin: 0; color: var(--text); font-family: Georgia, "Iowan Old Style", serif; line-height: 1.7;
+       background: radial-gradient(ellipse at 50% 120%, rgba(249, 115, 22, .18), transparent 60%), var(--bg); min-height: 100vh; }
+#embers { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
+.site-head, .wrap, .site-foot { position: relative; z-index: 1; }
+a { color: var(--gold); }
+.site-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 18px 24px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-size: 1.3rem; letter-spacing: .12em; text-transform: uppercase; }
+.flame { width: 14px; height: 22px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: radial-gradient(circle at 50% 70%, #fde68a, #f97316 45%, #9a3412 80%); box-shadow: 0 0 14px #f97316; animation: flicker 1.6s infinite alternate; }
+nav { display: flex; gap: 18px; font-family: system-ui, sans-serif; font-size: .9rem; }
+nav a { color: var(--muted); text-decoration: none; } nav a:hover { color: var(--text); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 24px 20px 60px; }
+.hero { text-align: center; padding: 48px 0 24px; }
+.hero h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); margin: 0; font-weight: normal; letter-spacing: .04em; text-shadow: 0 0 30px rgba(249, 115, 22, .35); }
+.hero p { color: var(--muted); margin: 8px 0 0; }
+.page-title { font-weight: normal; }
+.tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 10px 0 28px; }
+.tag { font-family: system-ui, sans-serif; font-size: .8rem; text-decoration: none; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; }
+.tag.active, .tag:hover { color: var(--bg); background: var(--gold); border-color: var(--gold); }
+.tag.small { font-size: .72rem; padding: 1px 8px; }
+.cards { display: grid; gap: 18px; }
+.card { background: linear-gradient(180deg, rgba(255, 255, 255, .02), transparent), var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 22px 24px; transition: border-color .3s, transform .3s; }
+.card:hover { border-color: rgba(214, 167, 86, .5); transform: translateY(-2px); }
+.card h2 { margin: 4px 0 6px; font-weight: normal; font-size: 1.45rem; } .card h2 a { color: var(--text); text-decoration: none; }
+.card h2 a:hover { color: var(--gold); }
+.card p { margin: 0; color: #cfc6ba; }
+.meta { font-family: system-ui, sans-serif; font-size: .78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.tags { display: flex; gap: 6px; margin-top: 10px !important; flex-wrap: wrap; }
+.post h1 { font-weight: normal; font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.2; margin: 6px 0 10px; }
+.prose { font-size: 1.08rem; }
+.prose h2 { font-weight: normal; color: var(--gold); margin-top: 2em; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.prose strong { color: #fff; }
+.prose li { margin: 4px 0; }
+.toc { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; margin: 18px 0; font-family: system-ui, sans-serif; font-size: .9rem; }
+.toc summary { cursor: pointer; color: var(--muted); }
+.pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-family: system-ui, sans-serif; font-size: .9rem; }
+.progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: linear-gradient(90deg, #9a3412, var(--ember), #fde68a); z-index: 10; box-shadow: 0 0 8px var(--ember); }
+.site-foot { text-align: center; color: var(--muted); font-family: system-ui, sans-serif; font-size: .78rem; padding: 24px 16px 40px; border-top: 1px solid var(--line); }
+@keyframes flicker { from { transform: scale(1) rotate(-2deg); opacity: .9; } to { transform: scale(1.08, 1.15) rotate(2deg); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } #embers { display: none; } }

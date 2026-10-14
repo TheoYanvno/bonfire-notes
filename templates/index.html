@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+  {% if not heading %}
+  <section class="hero">
+    <h1>Rest here a while.</h1>
+    <p>{{ site.tagline }}.</p>
+  </section>
+  {% else %}
+  <h1 class="page-title">{{ heading }}</h1>
+  {% endif %}
+  <nav class="tag-cloud" aria-label="Tags">
+    <a href="{{ root }}/index.html" class="tag{% if not heading %} active{% endif %}">all</a>
+    {% for t in tags %}<a href="{{ root }}/tags/{{ t }}.html" class="tag{% if heading and t in heading %} active{% endif %}">{{ t }}</a>{% endfor %}
+  </nav>
+  <div class="cards">
+    {% for p in posts %}
+    <article class="card">
+      <p class="meta"><time datetime="{{ p.date.isoformat() }}">{{ p.date.strftime('%B %-d, %Y') }}</time> · {{ p.reading_minutes }} min read</p>
+      <h2><a href="{{ root }}/posts/{{ p.slug }}.html">{{ p.title }}</a></h2>
+      <p>{{ p.summary }}</p>
+      <p class="tags">{% for t in p.tags %}<a href="{{ root }}/tags/{{ t }}.html" class="tag small">{{ t }}</a>{% endfor %}</p>
+    </article>
+    {% endfor %}
+  </div>
+{% endblock %}

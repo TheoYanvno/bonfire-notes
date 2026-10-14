@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ post.title }} · {{ site.title }}{% endblock %}
+{% block description %}{{ post.summary }}{% endblock %}
+{% block content %}
+  <div id="progress" class="progress" aria-hidden="true"></div>
+  <article class="post">
+    <header>
+      <p class="meta"><time datetime="{{ post.date.isoformat() }}">{{ post.date.strftime('%B %-d, %Y') }}</time> · {{ post.reading_minutes }} min read</p>
+      <h1>{{ post.title }}</h1>
+      <p class="tags">{% for t in post.tags %}<a href="{{ root }}/tags/{{ t }}.html" class="tag small">{{ t }}</a>{% endfor %}</p>
+    </header>
+    {% if post.headings|length > 2 %}
+    <details class="toc"><summary>In this post</summary><ol>{% for id, name in post.headings %}<li><a href="#{{ id }}">{{ name }}</a></li>{% endfor %}</ol></details>
+    {% endif %}
+    <div class="prose">{{ post.body_html|safe }}</div>
+  </article>
+  <nav class="pager">
+    {% if newer %}<a href="{{ newer.slug }}.html">← {{ newer.title }}</a>{% else %}<span></span>{% endif %}
+    {% if older %}<a href="{{ older.slug }}.html">{{ older.title }} →</a>{% endif %}
+  </nav>
+{% endblock %}
