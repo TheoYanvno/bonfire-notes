@@ -1,5 +1,7 @@
 # Bonfire Notes
 
+**▶ [Live demo](https://theoyanvno.github.io/bonfire-notes/)**
+
 A Dark Souls fan blog with beginner guides, boss strategies and plain-language lore, built with a small **Python static site generator**. Posts are written in Markdown and turned into a fast, dark-themed site with floating embers.
 
 **Tech:** Python · Markdown · Jinja2 templates · HTML/CSS · Canvas animation · RSS · `unittest` · GitHub Pages
