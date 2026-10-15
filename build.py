@@ -29,6 +29,7 @@ class Post:
     body_html: str
     words: int
     headings: list[tuple[str, str]] = field(default_factory=list)
+    time: str = "00:00"                          # optional HH:MM so same-day posts keep their order
 
     @property
     def reading_minutes(self) -> int:
@@ -58,7 +59,7 @@ def parse_front_matter(raw: str) -> tuple[dict, str]:
 
 def load_post(path: Path) -> Post:
     meta, body = parse_front_matter(path.read_text(encoding="utf-8"))
-    md = markdown.Markdown(extensions=["toc", "smarty"])
+    md = markdown.Markdown(extensions=["toc", "smarty", "tables"])
     body_html = md.convert(body)
     # slug comes from the file name without the date prefix: 2026-10-05-first-hours.md -> first-hours
     slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
@@ -67,6 +68,7 @@ def load_post(path: Path) -> Post:
         title=meta["title"],
         date=date.fromisoformat(meta["date"]),
         slug=slug,
+        time=meta.get("time", "00:00"),
         tags=[slugify(t) for t in meta.get("tags", "").split(",") if t.strip()],
         summary=meta.get("summary", ""),
         body_html=body_html,
@@ -77,7 +79,7 @@ def load_post(path: Path) -> Post:
 
 def load_posts() -> list[Post]:
     posts = [load_post(p) for p in POSTS.glob("*.md")]
-    return sorted(posts, key=lambda p: p.date, reverse=True)
+    return sorted(posts, key=lambda p: (p.date, p.time), reverse=True)
 
 
 def rss(posts: list[Post]) -> str:

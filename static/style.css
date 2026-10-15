@@ -33,6 +33,14 @@ nav a { color: var(--muted); text-decoration: none; } nav a:hover { color: var(-
 .prose h2 { font-weight: normal; color: var(--gold); margin-top: 2em; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
 .prose strong { color: #fff; }
 .prose li { margin: 4px 0; }
+/* tables in guides (stat plans, gear lists) */
+.prose table { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-family: system-ui, sans-serif; font-size: .88rem; }
+.prose .table-scroll { overflow-x: auto; }
+.prose th, .prose td { border-bottom: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+.prose th { color: var(--gold); font-weight: 600; background: var(--panel); }
+.prose tbody tr:hover { background: rgba(214, 167, 86, .06); }
+.prose blockquote { margin: 1.2em 0; padding: 10px 16px; border-left: 3px solid var(--ember); background: var(--panel); color: #d8cfc3; }
+.prose blockquote p { margin: 0; }
 .toc { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; margin: 18px 0; font-family: system-ui, sans-serif; font-size: .9rem; }
 .toc summary { cursor: pointer; color: var(--muted); }
 .pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-family: system-ui, sans-serif; font-size: .9rem; }
