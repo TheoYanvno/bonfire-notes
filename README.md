@@ -12,6 +12,9 @@ A Dark Souls fan blog with beginner guides, boss strategies and plain-language l
 
 ## Posts
 
+New: a [guides hub](https://theoyanvno.github.io/bonfire-notes/posts/lordran-guide-hub.html) with four build guides (stats, weapons, armor and rings), walkthroughs of the first three areas and strategies for the first five bosses.
+
+
 - **Why Dark Souls Still Matters**: world design, fair difficulty and its legacy
 - **Your First Hours in Lordran**: 10 beginner tips
 - **Ornstein and Smough**: a calm guide to the Anor Londo duo
