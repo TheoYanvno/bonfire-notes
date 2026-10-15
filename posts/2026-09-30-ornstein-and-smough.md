@@ -1,6 +1,6 @@
 ---
 title: Ornstein and Smough: A Calm Guide to the Anor Londo Duo
-date: 2026-10-09
+date: 2026-09-30
 tags: guide, boss
 summary: The most famous wall in Dark Souls is two bosses at once. Here's how to keep your cool and win.
 ---

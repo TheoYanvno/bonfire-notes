@@ -1,7 +1,6 @@
 ---
 title: Boss Guide 1: Asylum Demon
-date: 2026-10-15
-time: 11:00
+date: 2026-10-05
 tags: guide, bosses, beginner
 summary: The first boss of Dark Souls. Why you run the first time, how to open with a huge plunging attack, and the safe spot to stand.
 ---

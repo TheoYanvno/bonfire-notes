@@ -1,7 +1,6 @@
 ---
 title: Walkthrough Part 1: Northern Undead Asylum
-date: 2026-10-15
-time: 10:56
+date: 2026-10-04
 tags: guide, walkthrough, beginner
 summary: From your prison cell to the crow that carries you to Lordran. Every step of the tutorial area, including how to deal with the demon you can't beat yet.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Why Dark Souls Still Matters
-date: 2026-10-01
+date: 2026-09-28
 tags: opinion, history
 summary: Fifteen years after it first lit the fire, Dark Souls still shapes how games are made. Here is why it holds up.
 ---

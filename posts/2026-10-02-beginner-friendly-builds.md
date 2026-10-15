@@ -1,6 +1,6 @@
 ---
 title: Five Beginner-Friendly Builds
-date: 2026-10-14
+date: 2026-10-02
 tags: guide, builds, beginner
 summary: Your starting class matters less than you think, but these five play styles make the early game much smoother.
 ---

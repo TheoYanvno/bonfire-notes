@@ -1,6 +1,6 @@
 ---
 title: The Age of Fire, Explained
-date: 2026-10-12
+date: 2026-10-01
 tags: lore
 summary: Dark Souls hides its story in item text and quiet conversations. Here is the big picture in plain words. (Spoilers ahead.)
 ---

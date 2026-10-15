@@ -1,7 +1,6 @@
 ---
 title: Build Guide: The Strength Knight
-date: 2026-10-15
-time: 10:51
+date: 2026-10-03
 tags: guide, builds, strength
 summary: A heavy-hitting, hard-to-kill knight. Gear, weapon upgrades and exactly where to spend your level-up points, from the Asylum to the end game.
 ---
