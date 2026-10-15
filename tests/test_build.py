@@ -55,3 +55,11 @@ class SiteTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GuideTests(unittest.TestCase):
+    def test_tables_render_and_same_day_posts_keep_their_order(self):
+        post = build.load_post(next(build.POSTS.glob("*strength-knight-build.md")))
+        self.assertIn("<table>", post.body_html)
+        same_day = [p for p in build.load_posts() if p.date == date(2026, 10, 15)]
+        self.assertEqual([p.time for p in same_day], sorted((p.time for p in same_day), reverse=True))

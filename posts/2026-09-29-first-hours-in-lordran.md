@@ -1,6 +1,6 @@
 ---
 title: Your First Hours in Lordran: 10 Beginner Tips
-date: 2026-10-05
+date: 2026-09-29
 tags: guide, beginner
 summary: The ten things I wish someone had told me before my first trip through the Undead Burg.
 ---
