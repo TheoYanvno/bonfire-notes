@@ -30,6 +30,7 @@ Not sure? Read [Five Beginner-Friendly Builds](beginner-friendly-builds.html) fi
 | 6 | [Boss: Bell Gargoyles](bell-gargoyles-boss-guide.html) | Ring the first bell |
 | 7 | [Boss: Capra Demon](capra-demon-boss-guide.html) | Run up the stairs, kill the dogs first |
 | 8 | [Boss: Gaping Dragon](gaping-dragon-boss-guide.html) | Stay at its side in the Depths |
+| 9 | [Walkthrough: Blighttown](blighttown-walkthrough.html) | Poison darts, a swamp and Maneater Mildred |
 
 ## 3. Learn the world
 
