@@ -2,7 +2,7 @@
 title: Start Here: Lordran Guides Hub
 date: 2026-10-15
 tags: guide, beginner
-summary: Every guide on Bonfire Notes in one place, in the order you'll need them: builds, area walkthroughs and the first five bosses.
+summary: Every guide on Bonfire Notes in one place, in the order you'll need them: builds, area walkthroughs and the first six bosses.
 ---
 
 New to Dark Souls? This page lists every guide on the blog in the order you will need them. Pick a build, then follow the walkthroughs and boss guides side by side.
@@ -31,6 +31,7 @@ Not sure? Read [Five Beginner-Friendly Builds](beginner-friendly-builds.html) fi
 | 7 | [Boss: Capra Demon](capra-demon-boss-guide.html) | Run up the stairs, kill the dogs first |
 | 8 | [Boss: Gaping Dragon](gaping-dragon-boss-guide.html) | Stay at its side in the Depths |
 | 9 | [Walkthrough: Blighttown](blighttown-walkthrough.html) | Poison darts, a swamp and Maneater Mildred |
+| 10 | [Boss: Chaos Witch Quelaag](chaos-witch-quelaag-boss-guide.html) | Run from the fire blast, ring the second bell |
 
 ## 3. Learn the world
 
