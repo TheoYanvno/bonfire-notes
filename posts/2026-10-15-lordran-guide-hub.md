@@ -60,6 +60,12 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 28 | [Boss 14: Pinwheel](pinwheel-boss-guide.html) | Rush him; get the Rite of Kindling |
 | 29 | [Walkthrough Part 14: The Tomb of the Giants](tomb-of-the-giants-walkthrough.html) | Darkness and drops |
 | 30 | [Boss 15: Gravelord Nito](gravelord-nito-boss-guide.html) | Clear the skeletons, run from the poison |
+| 31 | [Walkthrough Part 15: The Demon Ruins](demon-ruins-walkthrough.html) | Lava and old demons |
+| 32 | [Boss 16: Ceaseless Discharge](ceaseless-discharge-boss-guide.html) | Fight his arms, or use the edge |
+| 33 | [Boss 17: Demon Firesage](demon-firesage-boss-guide.html) | Stay behind it |
+| 34 | [Boss 18: Centipede Demon](centipede-demon-boss-guide.html) | Get the Orange Charred Ring |
+| 35 | [Walkthrough Part 16: Lost Izalith](lost-izalith-walkthrough.html) | Lava fields and dragon-legged demons |
+| 36 | [Boss 19: Bed of Chaos](bed-of-chaos-boss-guide.html) | Break both roots, drop to the core |
 
 ## 3. Learn the world
 
