@@ -34,4 +34,4 @@ The **Moonlight Butterfly** is a huge, glowing moth that lives on a stone bridge
 
 ## After the fight
 
-Cross the bridge into the tower and climb to the top for the **Divine Ember**. Give it to Andre to upgrade weapons down the Divine path, which you'll want for the Catacombs. Back to the [guides hub](lordran-guide-hub.html).
+Cross the bridge into the tower and climb to the top for the **Divine Ember**. Give it to Andre to upgrade weapons down the Divine path, which you'll want for the [Catacombs](catacombs-walkthrough.html). Back to the [guides hub](lordran-guide-hub.html).
