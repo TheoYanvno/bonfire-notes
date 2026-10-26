@@ -48,7 +48,7 @@ The way up winds around the outside of the fortress. At the top, the **boulder g
 
 ## 7. Carried away
 
-After the Golem, a cutscene: bat-winged demons carry you off to **Anor Londo**, the city of the gods (Part 9).
+After the Golem, a cutscene: bat-winged demons carry you off to **Anor Londo**, the city of the gods ([Part 9](anor-londo-walkthrough.html)).
 
 ## Tips
 

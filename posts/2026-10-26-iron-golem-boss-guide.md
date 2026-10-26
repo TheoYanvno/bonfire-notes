@@ -34,4 +34,4 @@ The **Iron Golem** guards the roof of Sen's Fortress. It's enormous and hits har
 
 ## After the fight
 
-Walk to the edge where the golem stood. Bat-winged demons carry you to **Anor Londo**. See Walkthrough Part 9. Back to the [guides hub](lordran-guide-hub.html).
+Walk to the edge where the golem stood. Bat-winged demons carry you to **Anor Londo**. See [Walkthrough Part 9](anor-londo-walkthrough.html). Back to the [guides hub](lordran-guide-hub.html).
