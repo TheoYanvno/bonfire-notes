@@ -71,7 +71,20 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 39 | [Walkthrough Part 18: The Kiln of the First Flame](kiln-of-the-first-flame-walkthrough.html) | The end of the road |
 | 40 | [Boss 21: Gwyn, Lord of Cinder](gwyn-lord-of-cinder-boss-guide.html) | Parry him, or roll to his side |
 
-## 3. Learn the world
+## 3. The DLC: Artorias of the Abyss
+
+To get in you need the **Broken Pendant** from the Duke's Archives; then a black mist in Darkroot Basin pulls you into the past (Part 19 explains how). Most players do it before the Kiln, because it's strong preparation for Gwyn.
+
+| Order | Guide | What happens |
+|---|---|---|
+| 1 | [Walkthrough Part 19: Sanctuary Garden and the Royal Wood](royal-wood-walkthrough.html) | Arrive in the past |
+| 2 | [Boss 22: Sanctuary Guardian](sanctuary-guardian-boss-guide.html) | Stay at its side, cut the tail |
+| 3 | [Boss 23: Knight Artorias](knight-artorias-boss-guide.html) | Interrupt his power-up |
+| 4 | [Walkthrough Part 20: Oolacile Township and the Chasm of the Abyss](oolacile-township-walkthrough.html) | A ruined town and the Abyss |
+| 5 | [Boss 24: Black Dragon Kalameet](black-dragon-kalameet-boss-guide.html) | Hawkeye Gough shoots him down *(optional)* |
+| 6 | [Boss 25: Manus, Father of the Abyss](manus-father-of-the-abyss-boss-guide.html) | Bring the Silver Pendant |
+
+## 4. Learn the world
 
 - [First Hours in Lordran](first-hours-in-lordran.html): beginner tips
 - [The Age of Fire, Explained](age-of-fire-explained.html): the story in plain words

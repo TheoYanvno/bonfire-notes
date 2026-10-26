@@ -55,7 +55,7 @@ Darkroot Basin is a low valley with a lake. A ladder past a stone bridge in the 
 ### 8. Basin loot
 
 - **Grass Crest Shield:** guarded by a **Black Knight** near the lowest part of the basin. It makes your stamina recover faster.
-- **An alcove past the Hydra's lake** matters much later: it's the way into the Artorias of the Abyss DLC. See Part 19.
+- **An alcove past the Hydra's lake** matters much later: it's the way into the Artorias of the Abyss DLC. See [Part 19](royal-wood-walkthrough.html).
 
 ## Tips
 
