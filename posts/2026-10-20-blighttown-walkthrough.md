@@ -1,5 +1,5 @@
 ---
-title: Walkthrough Part 4: Blighttown
+title: Walkthrough Part 6: Blighttown
 date: 2026-10-20
 time: 18:00
 tags: guide, walkthrough
