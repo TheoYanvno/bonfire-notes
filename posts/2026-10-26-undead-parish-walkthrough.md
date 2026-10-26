@@ -41,7 +41,7 @@ Head down the stairs beside the church. You'll hear a hammer: that's **Andre of 
 
 - **Upgrade your weapon** with Titanite Shards. Andre also sells them.
 - **Buy the Crest of Artorias** much later (it's expensive). It opens a sealed door in Darkroot Garden.
-- **Past Andre**, a room with a Titanite Demon leads to **Darkroot Garden**. That's an optional area for later; see Walkthrough Part 7.
+- **Past Andre**, a room with a Titanite Demon leads to **Darkroot Garden**. That's an optional area for later; see [Walkthrough Part 7](darkroot-garden-walkthrough.html).
 
 ## 4. Keys and Lautrec
 
