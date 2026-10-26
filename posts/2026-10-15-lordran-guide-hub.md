@@ -46,7 +46,11 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 14 | [Boss 7: Moonlight Butterfly](moonlight-butterfly-boss-guide.html) | Hit it when it lands *(optional)* |
 | 15 | [Walkthrough Part 8: Sen's Fortress](sens-fortress-walkthrough.html) | Traps, blades and boulders |
 | 16 | [Boss 8: Iron Golem](iron-golem-boss-guide.html) | Hit its legs, knock it off the edge |
-| 17 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
+| 17 | [Walkthrough Part 9: Anor Londo](anor-londo-walkthrough.html) | The city of the gods and the two archers |
+| 18 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
+| 19 | [Boss 9: Dark Sun Gwyndolin](dark-sun-gwyndolin-boss-guide.html) | The endless corridor *(optional)* |
+| 20 | [Walkthrough Part 10: The Painted World of Ariamis](painted-world-walkthrough.html) | A snowy world inside a painting |
+| 21 | [Boss 10: Crossbreed Priscilla](crossbreed-priscilla-boss-guide.html) | You don't have to fight her *(optional)* |
 
 ## 3. Learn the world
 
