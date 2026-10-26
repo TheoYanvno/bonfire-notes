@@ -14,10 +14,15 @@ Every class can finish the game. The class only decides where you start. Each gu
 | Class | Starts with | Play style | Difficulty |
 |---|---|---|---|
 | [Knight](knight-class-build.html) | The most health, full armor, a sturdy shield | Heavy Strength tank | Easiest |
+| [Pyromancer](pyromancer-class-build.html) | Fireball and an axe, at level 1 | Melee plus fire; every point into survival | Easy |
 | [Warrior](warrior-class-build.html) | Balanced Strength and Dexterity, a great early shield | Quality build, any weapon | Easy |
 | [Bandit](bandit-class-build.html) | Top Strength and Endurance, a Battle Axe | Big-weapon Strength brawler | Easy |
+| [Cleric](cleric-class-build.html) | A mace, high Faith, the Heal miracle | Faith fighter who heals, then throws lightning | Medium |
 | [Wanderer](wanderer-class-build.html) | High Dexterity, a fast curved sword | Light, fast, wins by dodging | Medium |
+| [Hunter](hunter-class-build.html) | A sword, a short bow, good Dexterity | Dexterity archer | Medium |
 | [Thief](thief-class-build.html) | The best Dexterity, a dagger, the Master Key | Backstabs and parries | Harder |
+| [Sorcerer](sorcerer-class-build.html) | Soul Arrow, high Intelligence | Ranged magic, fragile early, strong late | Harder |
+| [Deprived](deprived-class-build.html) | A club, a plank, 11 in every stat | Blank slate: build anything | Hardest start |
 
 ## 2. Follow the route
 
