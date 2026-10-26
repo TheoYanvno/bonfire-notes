@@ -35,12 +35,14 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 3 | [Walkthrough Part 2: Firelink Shrine](firelink-shrine-walkthrough.html) | Your hub, and which paths to avoid |
 | 4 | [Walkthrough Part 3: The Undead Burg](undead-burg-walkthrough.html) | Soldiers, a merchant and a dragon bridge |
 | 5 | [Boss 2: Taurus Demon](taurus-demon-boss-guide.html) | The ladder trick |
-| 6 | [Boss 3: Bell Gargoyles](bell-gargoyles-boss-guide.html) | Ring the first bell |
-| 7 | [Boss 4: Capra Demon](capra-demon-boss-guide.html) | Run up the stairs, kill the dogs first |
-| 8 | [Boss 5: Gaping Dragon](gaping-dragon-boss-guide.html) | Stay at its side in the Depths |
-| 9 | [Walkthrough Part 6: Blighttown](blighttown-walkthrough.html) | Poison darts, a swamp and Maneater Mildred |
-| 10 | [Boss 6: Chaos Witch Quelaag](chaos-witch-quelaag-boss-guide.html) | Run from the fire blast, ring the second bell |
-| 11 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
+| 6 | [Walkthrough Part 4: The Undead Parish](undead-parish-walkthrough.html) | Andre the blacksmith and the first bell |
+| 7 | [Boss 3: Bell Gargoyles](bell-gargoyles-boss-guide.html) | Ring the first bell |
+| 8 | [Walkthrough Part 5: Lower Undead Burg and the Depths](lower-burg-and-depths-walkthrough.html) | Narrow streets, then the sewers |
+| 9 | [Boss 4: Capra Demon](capra-demon-boss-guide.html) | Run up the stairs, kill the dogs first |
+| 10 | [Boss 5: Gaping Dragon](gaping-dragon-boss-guide.html) | Stay at its side in the Depths |
+| 11 | [Walkthrough Part 6: Blighttown](blighttown-walkthrough.html) | Poison darts, a swamp and Maneater Mildred |
+| 12 | [Boss 6: Chaos Witch Quelaag](chaos-witch-quelaag-boss-guide.html) | Run from the fire blast, ring the second bell |
+| 13 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
 
 ## 3. Learn the world
 
