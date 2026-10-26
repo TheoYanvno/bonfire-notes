@@ -44,7 +44,7 @@ A big white cat named **Alvina** sits in the woods. Talk to her to join the **Fo
 
 ### 6. The sealed door
 
-A large door with a glowing seal blocks part of the forest. It opens with the **Crest of Artorias**, which Andre sells. Behind it are more woods, a chest with the **Stone Knight set**, and the grave of the knight Artorias, guarded by **Great Grey Wolf Sif**. Come back much later; see the Sif boss guide. Behind the grave is the **Hornet Ring**, which makes critical hits much stronger.
+A large door with a glowing seal blocks part of the forest. It opens with the **Crest of Artorias**, which Andre sells. Behind it are more woods, a chest with the **Stone Knight set**, and the grave of the knight Artorias, guarded by **Great Grey Wolf Sif**. Come back much later; see the [Sif boss guide](great-grey-wolf-sif-boss-guide.html). Behind the grave is the **Hornet Ring**, which makes critical hits much stronger.
 
 ## Darkroot Basin
 

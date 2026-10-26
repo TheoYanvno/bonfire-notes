@@ -51,6 +51,11 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 19 | [Boss 9: Dark Sun Gwyndolin](dark-sun-gwyndolin-boss-guide.html) | The endless corridor *(optional)* |
 | 20 | [Walkthrough Part 10: The Painted World of Ariamis](painted-world-walkthrough.html) | A snowy world inside a painting |
 | 21 | [Boss 10: Crossbreed Priscilla](crossbreed-priscilla-boss-guide.html) | You don't have to fight her *(optional)* |
+| 22 | [Walkthrough Part 11: New Londo Ruins and the Valley of Drakes](new-londo-and-valley-walkthrough.html) | Ghosts and the drained city |
+| 23 | [Boss 11: Stray Demon](stray-demon-boss-guide.html) | Back to the Asylum *(optional)* |
+| 24 | [Boss 12: Great Grey Wolf Sif](great-grey-wolf-sif-boss-guide.html) | Stay at its side |
+| 25 | [Boss 13: The Four Kings](four-kings-boss-guide.html) | Kill each king fast |
+| 26 | [Walkthrough Part 12: The Great Hollow and Ash Lake](great-hollow-and-ash-lake-walkthrough.html) | A long climb down *(optional)* |
 
 ## 3. Learn the world
 

@@ -17,7 +17,7 @@ The **Painted World of Ariamis** is a snowy, cold world inside a painting in Ano
 
 ## 1. The Peculiar Doll
 
-The doll is back in the **Northern Undead Asylum**, where the game began. To get there, curl up on the ledge near the giant tree at Firelink Shrine and a crow carries you back. See the Stray Demon boss guide, because something waits for you in the Asylum too.
+The doll is back in the **Northern Undead Asylum**, where the game began. To get there, curl up on the ledge near the giant tree at Firelink Shrine and a crow carries you back. See the [Stray Demon boss guide](stray-demon-boss-guide.html), because something waits for you in the Asylum too.
 
 ## 2. Inside the painting
 
