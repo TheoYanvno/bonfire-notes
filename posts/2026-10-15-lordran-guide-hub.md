@@ -56,6 +56,10 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 24 | [Boss 12: Great Grey Wolf Sif](great-grey-wolf-sif-boss-guide.html) | Stay at its side |
 | 25 | [Boss 13: The Four Kings](four-kings-boss-guide.html) | Kill each king fast |
 | 26 | [Walkthrough Part 12: The Great Hollow and Ash Lake](great-hollow-and-ash-lake-walkthrough.html) | A long climb down *(optional)* |
+| 27 | [Walkthrough Part 13: The Catacombs](catacombs-walkthrough.html) | Skeletons that get back up |
+| 28 | [Boss 14: Pinwheel](pinwheel-boss-guide.html) | Rush him; get the Rite of Kindling |
+| 29 | [Walkthrough Part 14: The Tomb of the Giants](tomb-of-the-giants-walkthrough.html) | Darkness and drops |
+| 30 | [Boss 15: Gravelord Nito](gravelord-nito-boss-guide.html) | Clear the skeletons, run from the poison |
 
 ## 3. Learn the world
 
