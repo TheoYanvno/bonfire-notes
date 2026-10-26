@@ -42,7 +42,9 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 10 | [Boss 5: Gaping Dragon](gaping-dragon-boss-guide.html) | Stay at its side in the Depths |
 | 11 | [Walkthrough Part 6: Blighttown](blighttown-walkthrough.html) | Poison darts, a swamp and Maneater Mildred |
 | 12 | [Boss 6: Chaos Witch Quelaag](chaos-witch-quelaag-boss-guide.html) | Run from the fire blast, ring the second bell |
-| 13 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
+| 13 | [Walkthrough Part 7: Darkroot Garden and Basin](darkroot-garden-walkthrough.html) | Forest side paths and the Hydra |
+| 14 | [Boss 7: Moonlight Butterfly](moonlight-butterfly-boss-guide.html) | Hit it when it lands *(optional)* |
+| 15 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
 
 ## 3. Learn the world
 
