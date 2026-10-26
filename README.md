@@ -6,20 +6,25 @@ A Dark Souls fan blog with beginner guides, boss strategies and plain-language l
 
 **Tech:** Python · Markdown · Jinja2 templates · HTML/CSS · Canvas animation · RSS · `unittest` · GitHub Pages
 
-| Home | Post |
-|---|---|
-| ![Home page](screenshots/home.png) | ![A post](screenshots/post.png) |
+| Home | Guides hub | Boss guide |
+|---|---|---|
+| ![Home page](screenshots/home.png) | ![Guides hub](screenshots/hub.png) | ![A boss guide](screenshots/post.png) |
 
 ## Posts
 
-New: a [guides hub](https://theoyanvno.github.io/bonfire-notes/posts/lordran-guide-hub.html) with four build guides (stats, weapons, armor and rings), walkthroughs of the first four areas and strategies for the first six bosses.
+A full Dark Souls guide, collected in the [guides hub](https://theoyanvno.github.io/bonfire-notes/posts/lordran-guide-hub.html):
+
+- **10 class builds**, one for every starting class: starting stats, weapons, gear and what to level
+- **20 area walkthroughs**, from the Northern Undead Asylum to the Kiln of the First Flame, plus the Artorias of the Abyss DLC
+- **25 boss guides** with each boss's attacks, how to dodge them and a step-by-step strategy
+
+Old build links forward to the new class guides, so bookmarks keep working.
 
 
 - **Why Dark Souls Still Matters**: world design, fair difficulty and its legacy
 - **Your First Hours in Lordran**: 10 beginner tips
 - **Ornstein and Smough**: a calm guide to the Anor Londo duo
 - **The Age of Fire, Explained**: the main story in plain words (spoilers)
-- **Five Beginner-Friendly Builds**: Knight, Pyromancer, Strength, Dexterity and Sorcerer
 
 ## Features
 
@@ -36,7 +41,7 @@ New: a [guides hub](https://theoyanvno.github.io/bonfire-notes/posts/lordran-gui
 | [`build.py`](build.py) | Reads `posts/*.md`, parses front matter, converts Markdown to HTML, renders templates and writes the site to `docs/` |
 | [`templates/`](templates) | Jinja templates: shared layout, post list, post page, About page |
 | [`static/`](static) | Stylesheet and the ember/progress-bar script |
-| [`tests/test_build.py`](tests/test_build.py) | Tests for front matter, slugs, reading time and a full build |
+| [`tests/test_build.py`](tests/test_build.py) | Tests for front matter, slugs, reading time, a full build, moved-post redirects and links between posts |
 
 ## Write a post
 

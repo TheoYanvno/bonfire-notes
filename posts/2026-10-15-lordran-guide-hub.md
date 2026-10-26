@@ -2,7 +2,7 @@
 title: Start Here: Lordran Guides Hub
 date: 2026-10-15
 tags: guide, beginner
-summary: Every guide on Bonfire Notes in one place, in the order you'll need them: a build for every starting class, area walkthroughs and boss guides.
+summary: Every guide on Bonfire Notes in one place, in the order you'll need them: a build for every starting class, all 20 area walkthroughs and all 25 boss guides, DLC included.
 ---
 
 New to Dark Souls? This page lists every guide on the blog in the order you will need them. Pick a class, then follow the walkthroughs and boss guides side by side, from the Asylum to the Kiln of the First Flame.
