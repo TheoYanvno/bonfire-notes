@@ -20,6 +20,9 @@ OUT = ROOT / "docs"
 REDIRECTS = {
     "strength-knight-build": "knight-class-build",
     "dexterity-swordsman-build": "wanderer-class-build",
+    "pyromancer-build": "pyromancer-class-build",
+    "sorcerer-build": "sorcerer-class-build",
+    "beginner-friendly-builds": "lordran-guide-hub",
 }
 
 SITE = {"title": "Bonfire Notes", "tagline": "A Dark Souls fan blog: guides, lore and stories from Lordran", "url": "https://theoyanvno.github.io/bonfire-notes"}
