@@ -1,3 +1,4 @@
+import re
 import unittest
 from datetime import date
 from pathlib import Path
@@ -58,8 +59,27 @@ if __name__ == "__main__":
 
 
 class GuideTests(unittest.TestCase):
+    def test_moved_posts_forward_to_their_new_page(self):
+        with TemporaryDirectory() as tmp:
+            original = build.OUT
+            build.OUT = Path(tmp) / "docs"
+            try:
+                build.build()
+                for old, new in build.REDIRECTS.items():
+                    page = (build.OUT / f"posts/{old}.html").read_text()
+                    self.assertIn(f'url={new}.html', page)
+                    self.assertTrue((build.OUT / f"posts/{new}.html").exists(), new)
+            finally:
+                build.OUT = original
+
+    def test_every_link_between_posts_points_to_a_real_page(self):
+        slugs = {p.slug for p in build.load_posts()} | set(build.REDIRECTS)
+        for post in build.load_posts():
+            for target in re.findall(r'href="([a-z0-9-]+)\.html', post.body_html):
+                self.assertIn(target, slugs, f"{post.slug} links to a missing post: {target}")
+
     def test_tables_render_and_same_day_posts_keep_their_order(self):
-        post = build.load_post(next(build.POSTS.glob("*strength-knight-build.md")))
+        post = build.load_post(next(build.POSTS.glob("*knight-class-build.md")))
         self.assertIn("<table>", post.body_html)
         same_day = [p for p in build.load_posts() if p.date == date(2026, 10, 15)]
         self.assertEqual([p.time for p in same_day], sorted((p.time for p in same_day), reverse=True))

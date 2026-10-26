@@ -16,6 +16,12 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = Path(__file__).parent
 POSTS = ROOT / "posts"
 OUT = ROOT / "docs"
+# Old post addresses that moved. Each gets a tiny page that forwards to the new post, so old links keep working.
+REDIRECTS = {
+    "strength-knight-build": "knight-class-build",
+    "dexterity-swordsman-build": "wanderer-class-build",
+}
+
 SITE = {"title": "Bonfire Notes", "tagline": "A Dark Souls fan blog: guides, lore and stories from Lordran", "url": "https://theoyanvno.github.io/bonfire-notes"}
 
 
@@ -93,6 +99,14 @@ def rss(posts: list[Post]) -> str:
             f"<link>{SITE['url']}</link><description>{html.escape(SITE['tagline'])}</description>{items}</channel></rss>")
 
 
+def redirect_page(slug: str) -> str:
+    """A page that sends the browser on to a post that moved (and tells search engines where it went)."""
+    url = f"{slug}.html"
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>This guide moved</title>'
+            f'<meta http-equiv="refresh" content="0; url={url}"><link rel="canonical" href="{SITE["url"]}/posts/{url}">'
+            f'</head><body><p>This guide has moved: <a href="{url}">continue to the new page</a>.</p></body></html>')
+
+
 def build() -> list[Path]:
     posts = load_posts()
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
@@ -118,6 +132,11 @@ def build() -> list[Path]:
     for tag in tags:
         tagged = [p for p in posts if tag in p.tags]
         write(f"tags/{tag}.html", env.get_template("index.html").render(posts=tagged, root="..", heading=f"Tagged “{tag}”", **common))
+    slugs = {p.slug for p in posts}
+    for old_slug, new_slug in REDIRECTS.items():
+        if old_slug in slugs or new_slug not in slugs:
+            raise ValueError(f"Redirect {old_slug} -> {new_slug}: the old post must be gone and the new one must exist")
+        write(f"posts/{old_slug}.html", redirect_page(new_slug))
     write("about.html", env.get_template("about.html").render(root=".", **common))
     write("feed.xml", rss(posts))
     (OUT / ".nojekyll").touch()
