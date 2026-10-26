@@ -66,6 +66,10 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 34 | [Boss 18: Centipede Demon](centipede-demon-boss-guide.html) | Get the Orange Charred Ring |
 | 35 | [Walkthrough Part 16: Lost Izalith](lost-izalith-walkthrough.html) | Lava fields and dragon-legged demons |
 | 36 | [Boss 19: Bed of Chaos](bed-of-chaos-boss-guide.html) | Break both roots, drop to the core |
+| 37 | [Walkthrough Part 17: The Duke's Archives and the Crystal Cave](dukes-archives-walkthrough.html) | Bookshelves and invisible bridges |
+| 38 | [Boss 20: Seath the Scaleless](seath-the-scaleless-boss-guide.html) | Break the crystal first |
+| 39 | [Walkthrough Part 18: The Kiln of the First Flame](kiln-of-the-first-flame-walkthrough.html) | The end of the road |
+| 40 | [Boss 21: Gwyn, Lord of Cinder](gwyn-lord-of-cinder-boss-guide.html) | Parry him, or roll to his side |
 
 ## 3. Learn the world
 
