@@ -44,7 +44,9 @@ This is one good order, not the only one. Bosses marked *optional* can be skippe
 | 12 | [Boss 6: Chaos Witch Quelaag](chaos-witch-quelaag-boss-guide.html) | Run from the fire blast, ring the second bell |
 | 13 | [Walkthrough Part 7: Darkroot Garden and Basin](darkroot-garden-walkthrough.html) | Forest side paths and the Hydra |
 | 14 | [Boss 7: Moonlight Butterfly](moonlight-butterfly-boss-guide.html) | Hit it when it lands *(optional)* |
-| 15 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
+| 15 | [Walkthrough Part 8: Sen's Fortress](sens-fortress-walkthrough.html) | Traps, blades and boulders |
+| 16 | [Boss 8: Iron Golem](iron-golem-boss-guide.html) | Hit its legs, knock it off the edge |
+| 17 | [Boss: Ornstein and Smough](ornstein-and-smough.html) | The famous duo; the Lordvessel |
 
 ## 3. Learn the world
 
