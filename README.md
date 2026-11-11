@@ -76,3 +76,7 @@ To publish for free, turn on GitHub Pages (Settings → Pages → deploy from th
 This is an unofficial fan project, not affiliated with FromSoftware or Bandai Namco. All posts are original writing, and the site uses no game artwork.
 
 Built with help from AI coding tools for planning, code review and tests.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
